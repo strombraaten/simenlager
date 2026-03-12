@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
+      "source": "/pengeprat",
+      "destination": "https://pengeprat.vercel.app/"
+    },
+    {
       "source": "/pengeprat/:path*",
-      "destination": "https://pengeprat.vercel.app/pengeprat/:path*"
+      "destination": "https://pengeprat.vercel.app/:path*"
     }
   ]
 }
