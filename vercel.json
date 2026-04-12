@@ -7,6 +7,10 @@
     {
       "source": "/pengeprat/:path*",
       "destination": "https://pengeprat.vercel.app/:path*"
+    },
+    {
+      "source": "/3d/:path*",
+      "destination": "https://3d-print-generator-indol.vercel.app/3d/:path*"
     }
   ]
 }
